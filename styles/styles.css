@@ -15,7 +15,7 @@ header{
     align-items: center;
 }
 #title{
-    flex-direction: column;
+    text-align: center;
     line-height: 10px;
 }
 li{
@@ -39,13 +39,16 @@ h2{
 span{
     color:red;
 }
-p{
+p {
     line-height: 20px;
     font-family: poppinslight;
+    text-align: justify; /* Justifica o texto */
+    margin-right: 20px; /* Adiciona espaço à direita do parágrafo */
 }
 
-img{
-    width:580px ;
+img {
+    width: 500px;
+    margin-left: 20px; /* Adiciona espaço à esquerda da imagem */
 }
 a{
     color: white;

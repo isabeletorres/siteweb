@@ -1,0 +1,32 @@
+@media screen and (min-width: 771px) and (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #title {
+        text-align: center;
+        line-height: ; /* Ajusta o espaçamento entre as linhas */
+    }
+
+    h1 {
+        font-size: 42px; /* Ajuste o tamanho da fonte para telas médias */
+    }
+
+    ul {
+        text-align: center;
+    }
+    p {
+        line-height: 20px;
+        font-family: poppinslight;
+        text-align: justify; /* Justifica o texto */
+        margin-right: 20px; /* Adiciona espaço à direita do parágrafo */
+    }
+    
+    img {
+        width: 500px;
+        margin-left: 20px; /* Adiciona espaço à esquerda da imagem */
+    }
+    
+}

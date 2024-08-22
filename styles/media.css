@@ -1,0 +1,32 @@
+@media screen and (max-width: 770.9px){
+
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 38px;
+        text-align: center;
+    }
+   /* form{
+        margin: 0 auto;
+       
+    }
+    input{
+        align-self: center;
+    }*/
+    img{
+        display: none; 
+    }
+    ul{
+        text-align: center;
+    }
+    p {
+        line-height: 20px;
+        font-family: poppinslight;
+        text-align: justify; /* Justifica o texto */
+        margin-right: 20px; /* Adiciona espaço à direita do parágrafo */
+    }
+}
