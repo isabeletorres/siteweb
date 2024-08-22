@@ -1,7 +1,7 @@
 @media screen and (max-width: 770.9px){
 
    header{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     main{
         flex-direction: column;
