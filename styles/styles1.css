@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-.container {
+.cadastro {
     background-color: white;
     padding: 40px;
     border-radius: 8px;
@@ -46,7 +46,7 @@ input[type="password"] {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-    border-color: #3498db;
+    border-color: #db3442;
     outline: none;
 }
 
@@ -62,5 +62,5 @@ input[type="password"]:focus {
 }
 
 .button:hover {
-    background-color: #2980b9;
+    background-color: #b9294d;
 }
