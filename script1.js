@@ -20,6 +20,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 
     // Se a validação for bem-sucedida, redireciona para outra página
-    window.location.href = "outrapag.html";
-    event.preventDefault(); // Evita o envio do formulário para o backend
+    setTimeout(function() {
+        window.location.href = "outrapag.html";
+    }, 0);
+    event.preventDefault(); // Impede o envio do formulário
 });
